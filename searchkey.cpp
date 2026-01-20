@@ -3,7 +3,10 @@
 using namespace std;
 
 void mateix(int sorted[][4], int n) {
-    int key = 33;
+    int key;
+    cout<<"enter key ="<<endl;
+    cin>>key;
+    
 
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
