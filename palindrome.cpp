@@ -22,7 +22,10 @@ bool isPalindrome(char str[], int n){
 
 int main() {
     // Write C++ code here
-   char word[]="racecar";
+   char word[100];
+   cout<<"enter a word =";
+   
+   cin>>word;
   
    isPalindrome(word,strlen(word));
    
