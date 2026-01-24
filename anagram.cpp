@@ -32,6 +32,7 @@ int main() {
         cout << "Anagram" << endl;
     } else {
         cout << "Not anagram" << endl;
+        //valid anagram
     }
 
     return 0;
